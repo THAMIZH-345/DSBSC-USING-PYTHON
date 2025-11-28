@@ -13,7 +13,6 @@ To implement and analyze DSBSC using Python's NumPy and Matplotlib libraries.
 
 ## Algorithm:
 
-
 1.	Initialize Parameters: Set the values for carrier frequency, message frequency, sampling frequency, and frequency deviation.
 2.	Generate Time Axis: Create a time vector for the signal duration.
 3.	Generate Message Signal: Define the message signal as a cosine wave.
@@ -45,20 +44,13 @@ plt.subplot(3,1,3)
 plt.plot(t,s)
 ```
 
-
 ## Output Graph
 
 <img width="711" height="512" alt="image" src="https://github.com/user-attachments/assets/9f439d40-20fc-4895-8a17-2ca2f5315c93" />
 
-
-
 ## Tablular Column
 
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/09b4dbe3-d8c3-4cd6-8e81-e6e222952a93" />
-
-
-
-
 
 ## Result
 
