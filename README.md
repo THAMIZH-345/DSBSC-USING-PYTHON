@@ -23,16 +23,38 @@ To implement and analyze DSBSC using Python's NumPy and Matplotlib libraries.
 
 
 ## Program
-
+```asm
+import numpy as np
+import matplotlib.pyplot as plt
+Am = 4.9
+Ac = 9.8
+fm = 417
+fc = 4170
+fs = 41700
+t = np.arange(0,2/fm,1/fs)
+m= Am*np.cos(2*3.14*fm*t)
+plt.subplot(3,1,1)
+plt.plot(t,m)
+c=Ac*np.cos(2*3.14*fc*t)
+plt.subplot(3,1,2)
+plt.plot(t,c)
+s1=(Ac+m)*np.cos(2*3.14*fc*t)
+s2=(Ac-m)*np.cos(2*3.14*fc*t)
+s=s1-s2
+plt.subplot(3,1,3)
+plt.plot(t,s)
+```
 
 
 ## Output Graph
 
+<img width="711" height="512" alt="image" src="https://github.com/user-attachments/assets/9f439d40-20fc-4895-8a17-2ca2f5315c93" />
 
 
 
 ## Tablular Column
 
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/09b4dbe3-d8c3-4cd6-8e81-e6e222952a93" />
 
 
 
